@@ -24,10 +24,10 @@ app.use (cors);
 app.use(cookieParser());
 
 app.use('/api/users', userRoutes);
-app.use('/api/items', menuRoutes);
-app.use('/api/order', OrderRoutes);
-app.use('/api/table', ReservationRoutes);
-app.use('/api/category', catogaryRoutes);
+// app.use('/api/items', menuRoutes);
+// app.use('/api/order', OrderRoutes);
+// app.use('/api/table', ReservationRoutes);
+// app.use('/api/category', catogaryRoutes);
 
 
 app.get('/', (req, res) => res.send('Server is ready'));
